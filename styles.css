@@ -1,0 +1,90 @@
+:root {
+  font-size: 18px;
+  --fontContent: "Roboto", sans-serif;
+  --fontTitle: "Stoke", serif;
+}
+html {
+  background-color: #FED81F;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.newsletter {
+  background-color: #f6f6f6;
+  width: 50%;
+  border: 2px solid black;
+  padding-block-start: 3rem;
+  padding-block-end: 1.5rem;
+  padding-inline: 1.5rem;
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+  overflow: hidden;
+}
+.name p {
+  font-family: var(--fontTitle);
+  font-weight: 700;
+  font-size: 2.9rem;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.info p {
+  font-family: var(--fontContent);
+  font-weight: 300;
+  color: #666;
+  font-size: 1.5rem;
+  margin: 0;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color:black;
+}
+section.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.info p:last-child {
+  justify-self: end;
+}
+section.title h1 {
+  font-family: var(--fontContent);
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+section.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+}
+article.left-side h2 {
+  margin: 0;
+  font-size: 50px;
+  font-family: var(--fontContent);
+}
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.information p {
+  font-family: var(--fontTitle);
+  margin: 0;
+}
+.right-side img {
+  width: 100%;
+}
+.right-side p {
+  margin: 0;
+  font-family: var(--fontTitle);
+  font-size: 16px;
+}
